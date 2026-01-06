@@ -141,7 +141,7 @@ from pathlib import Path
 path = "data/raw/" + well_name + ".las"
 
 # GOOD
-RAW_DIR = Path("data/raw")
+RAW_DIR = Path("../data/raw")
 FILE_PATH = raw_dir / f"{well_name}.las"
 
 if not file_path.exists():
