@@ -1,0 +1,23 @@
+name: carb_facies_normalization
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - pandas
+  - numpy
+  - matplotlib
+  - seaborn
+  - plotly
+  # Jupyter Core Requirements
+  - jupyter
+  - notebook
+  - ipykernel
+  - ipywidgets        # Useful for interactive dropdowns in notebooks
+  # File Handling
+  - openpyxl          # Required for reading/writing Excel (.xlsx) files
+  - xlrd              # Support for older Excel (.xls) files
+  - pip
+  - pip:
+    - thefuzz         # For fuzzy string matching
+    - python-levenshtein # Accelerator for thefuzz
