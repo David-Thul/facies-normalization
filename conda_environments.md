@@ -34,7 +34,7 @@ conda activate carb_facies_normalization
 ## Notes
 
 - **Never use the base conda environment.** Always create and activate the named env.
-- **Name collision warning:** `wellAnalysis/carbonates/environment.yml` also
+- **Name collision warning:** `well-analysis/carbonates/environment.yml` also
   declares an env named `carb_facies_normalization`. Creating both on the same
   machine will overwrite whichever was installed last. Either rename one or
-  keep only one installed at a time. See `wellAnalysis/conda_environments.md`.
+  keep only one installed at a time. See `well-analysis/conda_environments.md`.
